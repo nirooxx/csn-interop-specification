@@ -17,6 +17,16 @@
       ],
       "title": "@Consumption.valueHelpDefinition"
     },
+    "@Consumption.hidden": {
+      "type": "boolean",
+      "default": true,
+      "description": "The annotated element shall be ignored by consumers.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.5",
+      "title": "@Consumption.hidden"
+    },
     "@Consumption.ConsumptionValueHelpDefinition": {
       "title": "Consumption Value Help Definition",
       "type": "object",
@@ -114,10 +124,19 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "FILTER",
-            "RESULT",
-            "FILTER_AND_RESULT"
+          "oneOf": [
+            {
+              "const": "FILTER",
+              "description": "The binding specifies an additional filter-criterion on the value help list."
+            },
+            {
+              "const": "RESULT",
+              "description": "The binding specifies an additional result mapping for the selected value help record."
+            },
+            {
+              "const": "FILTER_AND_RESULT",
+              "description": "The binding specifies both an additional filter-criterion and an additional result mapping (the default)."
+            }
           ],
           "default": "FILTER_AND_RESULT"
         }
@@ -132,6 +151,21 @@
         }
       ],
       "title": "@Consumption.ConsumptionValueHelpDefinition.AdditionalBinding.Usage"
+    },
+    "@Consumption.aiHint": {
+      "type": "string",
+      "description": "Provides a free-text hint for AI consumers (e.g., LLMs or AI agents) on how to use or interpret the annotated element.\n\nThis allows keeping human-readable descriptions (e.g., `@EndUserText`) separate from\nguidance targeted specifically at AI consumers.\n\nThe annotation value MUST NOT be displayed to end users and MUST be filtered when\npublishing metadata externally (e.g., to the SAP API Business Hub public catalog).",
+      "examples": [
+        "Use this entity to look up current inventory levels by product and warehouse.",
+        "This field contains the ISO 4217 currency code, not a currency symbol."
+      ],
+      "x-extension-targets": [
+        "Entity",
+        "Type",
+        "Service"
+      ],
+      "x-introduced-in-version": "1.2.6",
+      "title": "@Consumption.aiHint"
     }
   }
 }

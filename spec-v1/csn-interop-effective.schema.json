@@ -423,17 +423,26 @@
           ],
           "description": "Contains the SQL on condition as string"
         },
-        "@API.element": {
-          "$ref": "#/definitions/@API.element"
+        "@API.entity.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.entity.decommissioningPlannedForYearMonth"
         },
-        "@API.element.releaseState": {
-          "$ref": "#/definitions/@API.element.releaseState"
+        "@API.entity.successor": {
+          "$ref": "#/definitions/@API.entity.successor"
+        },
+        "@API.entity.releaseState": {
+          "$ref": "#/definitions/@API.entity.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.dataProduct.customDataProvider.partialKeyDefinition": {
+          "$ref": "#/definitions/@DataIntegration.dataProduct.customDataProvider.partialKeyDefinition"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -942,14 +951,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -1082,6 +1106,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -1159,14 +1198,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -1299,6 +1353,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.mimeType": {
           "$ref": "#/definitions/@Semantics.mimeType"
@@ -1375,14 +1444,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -1515,6 +1599,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.largeObject.acceptableMimeTypes": {
           "$ref": "#/definitions/@Semantics.largeObject.acceptableMimeTypes"
@@ -1596,14 +1695,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -1739,6 +1853,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -1809,14 +1938,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -1952,6 +2096,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -2022,14 +2181,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -2165,6 +2339,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -2235,14 +2424,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -2378,6 +2582,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -2466,14 +2685,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -2609,6 +2843,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -2677,14 +2926,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -2820,6 +3084,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -2890,14 +3169,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -3030,6 +3324,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -3098,14 +3407,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -3238,6 +3562,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -3306,14 +3645,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -3446,6 +3800,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -3514,14 +3883,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -3654,6 +4038,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -3719,14 +4118,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -3859,6 +4273,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -3932,14 +4361,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -4072,6 +4516,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -4139,14 +4598,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -4279,6 +4753,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.largeObject.acceptableMimeTypes": {
           "$ref": "#/definitions/@Semantics.largeObject.acceptableMimeTypes"
@@ -4480,14 +4969,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -4620,6 +5124,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -4835,14 +5354,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -4975,6 +5509,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -5090,14 +5639,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -5230,6 +5794,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -5648,14 +6227,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -5788,6 +6382,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "allOf": [
@@ -6139,14 +6748,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -6279,6 +6903,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -6359,14 +6998,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -6499,6 +7153,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.mimeType": {
           "$ref": "#/definitions/@Semantics.mimeType"
@@ -6581,14 +7250,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -6721,6 +7405,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.largeObject.acceptableMimeTypes": {
           "$ref": "#/definitions/@Semantics.largeObject.acceptableMimeTypes"
@@ -6794,14 +7493,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -6937,6 +7651,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -7010,14 +7739,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -7153,6 +7897,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -7217,14 +7976,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -7360,6 +8134,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -7424,14 +8213,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -7567,6 +8371,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -7649,14 +8468,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -7792,6 +8626,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -7867,14 +8716,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -8010,6 +8874,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -8074,14 +8953,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -8214,6 +9108,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -8284,14 +9193,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -8424,6 +9348,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -8488,14 +9427,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -8628,6 +9582,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -8692,14 +9661,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -8832,6 +9816,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -8893,14 +9892,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -9033,6 +10047,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -9102,14 +10131,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -9242,6 +10286,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -9309,14 +10368,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -9449,6 +10523,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         },
         "@Semantics.largeObject.acceptableMimeTypes": {
           "$ref": "#/definitions/@Semantics.largeObject.acceptableMimeTypes"
@@ -9651,14 +10740,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -9791,6 +10895,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -10011,14 +11130,29 @@
         "@API.element": {
           "$ref": "#/definitions/@API.element"
         },
+        "@API.element.decommissioningPlannedForYearMonth": {
+          "$ref": "#/definitions/@API.element.decommissioningPlannedForYearMonth"
+        },
+        "@API.element.successor": {
+          "$ref": "#/definitions/@API.element.successor"
+        },
         "@API.element.releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
         },
         "@Consumption.valueHelpDefinition": {
           "$ref": "#/definitions/@Consumption.valueHelpDefinition"
         },
+        "@Consumption.hidden": {
+          "$ref": "#/definitions/@Consumption.hidden"
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
+        },
         "@DataIntegration.dataUnavailable": {
           "$ref": "#/definitions/@DataIntegration.dataUnavailable"
+        },
+        "@DataIntegration.technical": {
+          "$ref": "#/definitions/@DataIntegration.technical"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -10151,6 +11285,21 @@
         },
         "@Semantics.businessDate.to": {
           "$ref": "#/definitions/@Semantics.businessDate.to"
+        },
+        "@Semantics.businessDate.at": {
+          "$ref": "#/definitions/@Semantics.businessDate.at"
+        },
+        "@Semantics.systemDate.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.createdAt"
+        },
+        "@Semantics.systemDate.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDate.lastChangedAt"
+        },
+        "@Semantics.systemDateTime.createdAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.createdAt"
+        },
+        "@Semantics.systemDateTime.lastChangedAt": {
+          "$ref": "#/definitions/@Semantics.systemDateTime.lastChangedAt"
         }
       },
       "patternProperties": {
@@ -10220,6 +11369,9 @@
         "doc": {
           "type": "string",
           "description": "Human readable documentation, usually for developer documentation.\n\nSHOULD be provided and interpreted as [CommonMark](https://spec.commonmark.org/) (Markdown).\n\nIf a human readable title is needed, use the [@EndUserText.label](./extensions/end-user-text#endusertextlabel) annotation."
+        },
+        "@Consumption.aiHint": {
+          "$ref": "#/definitions/@Consumption.aiHint"
         },
         "@EndUserText.label": {
           "$ref": "#/definitions/@EndUserText.label"
@@ -10432,7 +11584,7 @@
     },
     "@API.element": {
       "type": "object",
-      "description": "Specifies the release state of an element which is part of an API.",
+      "description": "Specifies the release state of an element which is part of an API.\n\n> ⚠️ **Deprecated since 1.2.5** — prefer `@API.element.releaseState`, `@API.element.successor`, `@API.element.decommissioningPlannedForYearMonth`.",
       "properties": {
         "releaseState": {
           "$ref": "#/definitions/@API.element.releaseState"
@@ -10446,9 +11598,24 @@
         }
       },
       "x-extension-targets": [
-        "Type",
-        "Entity"
-      ]
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.4"
+    },
+    "@API.element.decommissioningPlannedForYearMonth": {
+      "description": "The annotation describes the planned decommissioning date of the annotated element. Use ISO format for YearMonth: YYYY-MM (e.g. 2024-08)",
+      "type": "string",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.5"
+    },
+    "@API.element.successor": {
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.5",
+      "$ref": "#/definitions/ElementReference"
     },
     "@API.element.releaseState": {
       "type": "object",
@@ -10469,10 +11636,58 @@
           ]
         }
       },
+      "additionalProperties": false,
+      "required": [
+        "#"
+      ],
       "x-extension-targets": [
-        "Type",
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.4"
+    },
+    "@API.entity.decommissioningPlannedForYearMonth": {
+      "description": "The annotation describes the planned decommissioning date of the annotated entity. Use ISO format for YearMonth: YYYY-MM (e.g. 2024-08)",
+      "type": "string",
+      "x-extension-targets": [
         "Entity"
-      ]
+      ],
+      "x-introduced-in-version": "1.2.5"
+    },
+    "@API.entity.successor": {
+      "description": "Defines the name of a released successor entity which replaces an entity with release state #DEPRECATED or #DECOMMISSIONED.",
+      "type": "string",
+      "x-extension-targets": [
+        "Entity"
+      ],
+      "x-introduced-in-version": "1.2.5"
+    },
+    "@API.entity.releaseState": {
+      "type": "object",
+      "description": "The annotation describes the release state of the annotated entity.",
+      "properties": {
+        "#": {
+          "type": "string",
+          "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
+          "oneOf": [
+            {
+              "const": "DEPRECATED",
+              "description": "Formerly released entity is not to be used anymore.\nAt runtime, the entity must work as before.\nTogether with this value a successors of the entity should be defined using annotation @API.entity.successor."
+            },
+            {
+              "const": "DECOMMISSIONED",
+              "description": "Formerly released entity not to be used anymore.\nAt runtime, the entity returns null values.\nTogether with this value a successors of the entity should be defined using annotation @API.entity.successor."
+            }
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "#"
+      ],
+      "x-extension-targets": [
+        "Entity"
+      ],
+      "x-introduced-in-version": "1.2.5"
     },
     "@Consumption.valueHelpDefinition": {
       "type": "array",
@@ -10484,6 +11699,15 @@
         "Entity",
         "Type"
       ]
+    },
+    "@Consumption.hidden": {
+      "type": "boolean",
+      "default": true,
+      "description": "The annotated element shall be ignored by consumers.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.5"
     },
     "@Consumption.ConsumptionValueHelpDefinition": {
       "title": "Consumption Value Help Definition",
@@ -10577,10 +11801,19 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "FILTER",
-            "RESULT",
-            "FILTER_AND_RESULT"
+          "oneOf": [
+            {
+              "const": "FILTER",
+              "description": "The binding specifies an additional filter-criterion on the value help list."
+            },
+            {
+              "const": "RESULT",
+              "description": "The binding specifies an additional result mapping for the selected value help record."
+            },
+            {
+              "const": "FILTER_AND_RESULT",
+              "description": "The binding specifies both an additional filter-criterion and an additional result mapping (the default)."
+            }
           ],
           "default": "FILTER_AND_RESULT"
         }
@@ -10595,13 +11828,54 @@
         }
       ]
     },
+    "@Consumption.aiHint": {
+      "type": "string",
+      "description": "Provides a free-text hint for AI consumers (e.g., LLMs or AI agents) on how to use or interpret the annotated element.\n\nThis allows keeping human-readable descriptions (e.g., `@EndUserText`) separate from\nguidance targeted specifically at AI consumers.\n\nThe annotation value MUST NOT be displayed to end users and MUST be filtered when\npublishing metadata externally (e.g., to the SAP API Business Hub public catalog).",
+      "examples": [
+        "Use this entity to look up current inventory levels by product and warehouse.",
+        "This field contains the ISO 4217 currency code, not a currency symbol."
+      ],
+      "x-extension-targets": [
+        "Entity",
+        "Type",
+        "Service"
+      ],
+      "x-introduced-in-version": "1.2.6"
+    },
     "@DataIntegration.dataUnavailable": {
       "type": "boolean",
       "description": "Specifies that the data of the element or entity is unavailable although it is part of the output structure.",
       "x-extension-targets": [
         "Type",
         "Entity"
+      ],
+      "x-introduced-in-version": "1.2.3"
+    },
+    "@DataIntegration.dataProduct.customDataProvider.partialKeyDefinition": {
+      "type": "array",
+      "description": "Defines subset of key fields of the CDS entity used for DELETE operation during delta replication.\n\n**Consistency Constraints:**\n- Fields defined in the annotation must be key fields of the CDS entity.",
+      "items": {},
+      "minItems": 1,
+      "x-extension-targets": [
+        "Entity"
+      ],
+      "x-introduced-in-version": "1.2.6",
+      "examples": [
+        [
+          "AirlineCode",
+          "FlightConnectionNumber",
+          "FlightDate"
+        ]
       ]
+    },
+    "@DataIntegration.technical": {
+      "type": "boolean",
+      "const": true,
+      "description": "Express by this annotation that an element is of technical nature used for data integration purposes and does not belong to the business data of the data product.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.6"
     },
     "@EndUserText.label": {
       "type": "string",
@@ -10758,6 +12032,7 @@
         "propertyTypes": {
           "type": "array",
           "description": "List of [Property Type](#property-type) IDs.",
+          "minItems": 1,
           "items": {
             "$ref": "#/definitions/@EntityRelationship.PropertyTypeID"
           }
@@ -10782,6 +12057,7 @@
         "referencedPropertyTypes": {
           "type": "array",
           "description": "List of properties, the composite ID consists of.",
+          "minItems": 2,
           "items": {
             "$ref": "#/definitions/@EntityRelationship.ReferenceTargetPropertyType"
           }
@@ -10825,6 +12101,7 @@
         "propertyTypes": {
           "type": "array",
           "description": "List of [Property Type](#property-type) IDs that are non-temporal.",
+          "minItems": 1,
           "items": {
             "$ref": "#/definitions/@EntityRelationship.PropertyTypeID"
           }
@@ -10865,6 +12142,7 @@
         "referencedPropertyTypes": {
           "type": "array",
           "description": "List of non-temporal properties the composite temporal ID consists of.",
+          "minItems": 1,
           "items": {
             "$ref": "#/definitions/@EntityRelationship.ReferenceTargetPropertyType"
           }
@@ -10901,6 +12179,7 @@
         "referencedPropertyTypes": {
           "type": "array",
           "description": "List of properties, the composite ID consists of.",
+          "minItems": 1,
           "items": {
             "$ref": "#/definitions/@EntityRelationship.ReferenceTargetPropertyTypeWithConstantId"
           }
@@ -10962,11 +12241,23 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "CLOSED_CLOSED",
-            "OPEN_OPEN",
-            "OPEN_CLOSED",
-            "CLOSED_OPEN"
+          "oneOf": [
+            {
+              "const": "CLOSED_CLOSED",
+              "description": "The interval includes both its lower and upper boundary."
+            },
+            {
+              "const": "OPEN_OPEN",
+              "description": "The interval excludes both its lower and upper boundary."
+            },
+            {
+              "const": "OPEN_CLOSED",
+              "description": "The interval excludes its lower boundary and includes its upper boundary."
+            },
+            {
+              "const": "CLOSED_OPEN",
+              "description": "The interval includes its lower boundary and excludes its upper boundary."
+            }
           ]
         }
       },
@@ -10988,9 +12279,13 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "DATE",
-            "DATETIME"
+          "oneOf": [
+            {
+              "const": "DATE"
+            },
+            {
+              "const": "DATETIME"
+            }
           ]
         }
       },
@@ -11012,8 +12307,10 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "TEMPORAL_DATE"
+          "oneOf": [
+            {
+              "const": "TEMPORAL_DATE"
+            }
           ]
         }
       },
@@ -11057,7 +12354,8 @@
         "Type",
         "Entity",
         "Service"
-      ]
+      ],
+      "x-introduced-in-version": "1.0.6"
     },
     "@ObjectModel.modelingPattern": {
       "type": "object",
@@ -11070,32 +12368,82 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "DATA_STRUCTURE",
-            "LANGUAGE_DEPENDENT_TEXT",
-            "UNIT_CONVERSION_RATE",
-            "VALUE_HELP_PROVIDER",
-            "COLLECTIVE_VALUE_HELP",
-            "DERIVATION_FUNCTION",
-            "PARENT_CHILD_HIERARCHY_NODE_PROVIDER",
-            "ENTERPRISE_SEARCH_PROVIDER",
-            "TRANSACTIONAL_INTERFACE",
-            "TRANSACTIONAL_QUERY",
-            "ANALYTICAL_QUERY",
-            "ANALYTICAL_DOCUMENT_STORE",
-            "ANALYTICAL_CUBE",
-            "ANALYTICAL_DIMENSION",
-            "ANALYTICAL_FACT",
-            "ANALYTICAL_PARENT_CHILD_HIERARCHY_NODE",
-            "ANALYTICAL_KPI",
-            "OUTPUT_FORM_DATA_PROVIDER",
-            "OUTPUT_EMAIL_DATA_PROVIDER",
-            "OUTPUT_PARAMETER_DETERMINATION_DATA_SOURCE",
-            "SITUATION_ANCHOR",
-            "SITUATION_TRIGGER",
-            "SITUATION_DATACONTEXT",
-            "EXTERNAL_DATA_PROVIDER",
-            "NONE"
+          "oneOf": [
+            {
+              "const": "DATA_STRUCTURE"
+            },
+            {
+              "const": "LANGUAGE_DEPENDENT_TEXT"
+            },
+            {
+              "const": "UNIT_CONVERSION_RATE"
+            },
+            {
+              "const": "VALUE_HELP_PROVIDER"
+            },
+            {
+              "const": "COLLECTIVE_VALUE_HELP"
+            },
+            {
+              "const": "DERIVATION_FUNCTION"
+            },
+            {
+              "const": "PARENT_CHILD_HIERARCHY_NODE_PROVIDER"
+            },
+            {
+              "const": "ENTERPRISE_SEARCH_PROVIDER"
+            },
+            {
+              "const": "TRANSACTIONAL_INTERFACE"
+            },
+            {
+              "const": "TRANSACTIONAL_QUERY"
+            },
+            {
+              "const": "ANALYTICAL_QUERY"
+            },
+            {
+              "const": "ANALYTICAL_DOCUMENT_STORE"
+            },
+            {
+              "const": "ANALYTICAL_CUBE"
+            },
+            {
+              "const": "ANALYTICAL_DIMENSION"
+            },
+            {
+              "const": "ANALYTICAL_FACT"
+            },
+            {
+              "const": "ANALYTICAL_PARENT_CHILD_HIERARCHY_NODE"
+            },
+            {
+              "const": "ANALYTICAL_KPI"
+            },
+            {
+              "const": "OUTPUT_FORM_DATA_PROVIDER"
+            },
+            {
+              "const": "OUTPUT_EMAIL_DATA_PROVIDER"
+            },
+            {
+              "const": "OUTPUT_PARAMETER_DETERMINATION_DATA_SOURCE"
+            },
+            {
+              "const": "SITUATION_ANCHOR"
+            },
+            {
+              "const": "SITUATION_TRIGGER"
+            },
+            {
+              "const": "SITUATION_DATACONTEXT"
+            },
+            {
+              "const": "EXTERNAL_DATA_PROVIDER"
+            },
+            {
+              "const": "NONE"
+            }
           ]
         }
       },
@@ -11151,7 +12499,8 @@
       "maxLength": 120,
       "x-extension-targets": [
         "Entity"
-      ]
+      ],
+      "x-introduced-in-version": "1.0.3"
     },
     "@ObjectModel.usageType.sizeCategory": {
       "type": "object",
@@ -11160,12 +12509,27 @@
         "#": {
           "type": "string",
           "description": "Provide the value in `{ \"#\": \"<value>\" }` enum notation.",
-          "enum": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
+          "oneOf": [
+            {
+              "const": "S",
+              "description": "Small: less than 1000 rows expected at production customers."
+            },
+            {
+              "const": "M",
+              "description": "Medium: less than 100.000 rows expected at production customers."
+            },
+            {
+              "const": "L",
+              "description": "Large: less than 10.000.000 rows expected at production customers."
+            },
+            {
+              "const": "XL",
+              "description": "Extra large: less than 100.000.000 rows expected at production customers."
+            },
+            {
+              "const": "XXL",
+              "description": "Extra extra large: more than 100.000.000 rows expected at production customers."
+            }
           ]
         }
       },
@@ -11189,37 +12553,97 @@
         "#": {
           "type": "string",
           "description": "The entry declares one supported usage type.",
-          "enum": [
-            "SQL_DATA_SOURCE",
-            "CDS_MODELING_DATA_SOURCE",
-            "CDS_MODELING_ASSOCIATION_TARGET",
-            "DATA_STRUCTURE",
-            "LANGUAGE_DEPENDENT_TEXT",
-            "UNIT_CONVERSION_RATE",
-            "VALUE_HELP_PROVIDER",
-            "COLLECTIVE_VALUE_HELP",
-            "EXTRACTION_DATA_SOURCE",
-            "DERIVATION_FUNCTION",
-            "PARENT_CHILD_HIERARCHY_NODE_PROVIDER",
-            "SEARCHABLE_ENTITY",
-            "ENTERPRISE_SEARCH_PROVIDER",
-            "TRANSACTIONAL_PROVIDER",
-            "ANALYTICAL_QUERY",
-            "ANALYTICAL_DOCUMENT_STORE",
-            "ANALYTICAL_DIMENSION",
-            "ANALYTICAL_PROVIDER",
-            "ANALYTICAL_PARENT_CHILD_HIERARCHY_NODE",
-            "ANALYTICAL_KPI",
-            "OUTPUT_FORM_DATA_PROVIDER",
-            "OUTPUT_EMAIL_DATA_PROVIDER",
-            "OUTPUT_PARAMETER_DETERMINATION_DATA_SOURCE",
-            "SITUATION_ANCHOR",
-            "SITUATION_TRIGGER",
-            "SITUATION_DATACONTEXT",
-            "KEY_USER_COPYING_TEMPLATE",
-            "EXTERNAL_DATA_PROVIDER",
-            "ODM_COMPLIANT_PROVIDER",
-            "UI_PROVIDER_PROJECTION_SOURCE"
+          "oneOf": [
+            {
+              "const": "SQL_DATA_SOURCE"
+            },
+            {
+              "const": "CDS_MODELING_DATA_SOURCE"
+            },
+            {
+              "const": "CDS_MODELING_ASSOCIATION_TARGET"
+            },
+            {
+              "const": "DATA_STRUCTURE"
+            },
+            {
+              "const": "LANGUAGE_DEPENDENT_TEXT"
+            },
+            {
+              "const": "UNIT_CONVERSION_RATE"
+            },
+            {
+              "const": "VALUE_HELP_PROVIDER"
+            },
+            {
+              "const": "COLLECTIVE_VALUE_HELP"
+            },
+            {
+              "const": "EXTRACTION_DATA_SOURCE"
+            },
+            {
+              "const": "DERIVATION_FUNCTION"
+            },
+            {
+              "const": "PARENT_CHILD_HIERARCHY_NODE_PROVIDER"
+            },
+            {
+              "const": "SEARCHABLE_ENTITY"
+            },
+            {
+              "const": "ENTERPRISE_SEARCH_PROVIDER"
+            },
+            {
+              "const": "TRANSACTIONAL_PROVIDER"
+            },
+            {
+              "const": "ANALYTICAL_QUERY"
+            },
+            {
+              "const": "ANALYTICAL_DOCUMENT_STORE"
+            },
+            {
+              "const": "ANALYTICAL_DIMENSION"
+            },
+            {
+              "const": "ANALYTICAL_PROVIDER"
+            },
+            {
+              "const": "ANALYTICAL_PARENT_CHILD_HIERARCHY_NODE"
+            },
+            {
+              "const": "ANALYTICAL_KPI"
+            },
+            {
+              "const": "OUTPUT_FORM_DATA_PROVIDER"
+            },
+            {
+              "const": "OUTPUT_EMAIL_DATA_PROVIDER"
+            },
+            {
+              "const": "OUTPUT_PARAMETER_DETERMINATION_DATA_SOURCE"
+            },
+            {
+              "const": "SITUATION_ANCHOR"
+            },
+            {
+              "const": "SITUATION_TRIGGER"
+            },
+            {
+              "const": "SITUATION_DATACONTEXT"
+            },
+            {
+              "const": "KEY_USER_COPYING_TEMPLATE"
+            },
+            {
+              "const": "EXTERNAL_DATA_PROVIDER"
+            },
+            {
+              "const": "ODM_COMPLIANT_PROVIDER"
+            },
+            {
+              "const": "UI_PROVIDER_PROJECTION_SOURCE"
+            }
           ]
         }
       },
@@ -11404,7 +12828,8 @@
       "x-extension-targets": [
         "Type",
         "Entity"
-      ]
+      ],
+      "x-introduced-in-version": "1.2.5"
     },
     "@Semantics.valueRange": {
       "type": "object",
@@ -11674,13 +13099,59 @@
         "Type"
       ]
     },
+    "@Semantics.businessDate.at": {
+      "type": "boolean",
+      "const": true,
+      "description": "The property contains a date which is the key date.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.8"
+    },
+    "@Semantics.systemDate.createdAt": {
+      "type": "boolean",
+      "const": true,
+      "description": "The property contains a date which is the point in time when the record was created for the first time.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.8"
+    },
+    "@Semantics.systemDate.lastChangedAt": {
+      "type": "boolean",
+      "const": true,
+      "description": "The property contains a date which is the point in time when the record was modified for the last time.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.8"
+    },
+    "@Semantics.systemDateTime.createdAt": {
+      "type": "boolean",
+      "const": true,
+      "description": "The property contains a timestamp which is the point in time when the record was created for the first time.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.8"
+    },
+    "@Semantics.systemDateTime.lastChangedAt": {
+      "type": "boolean",
+      "const": true,
+      "description": "The property contains a timestamp which is the point in time when the record was modified for the last time.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.8"
+    },
     "@Semantics.mimeType": {
       "type": "boolean",
       "const": true,
       "description": "The property value is a MIME Type / Media Type, following [RFC 6838](https://datatracker.ietf.org/doc/html/rfc6838).",
       "x-extension-targets": [
         "StringType"
-      ]
+      ],
+      "x-introduced-in-version": "1.1.0"
     },
     "@Semantics.largeObject.acceptableMimeTypes": {
       "description": "The property value contains a document / file that uses one of the stated MIME Types / Media Types ([RFC 6838](https://datatracker.ietf.org/doc/html/rfc6838)).\nThis annotation can be used if the Media Type is already known at design time and can be described in the metadata model itself.\nIf the Media Type is only known at runtime, the \"@Semantics.largeObject.mimeType\" annotation has to be used instead.",
@@ -11691,13 +13162,15 @@
       "x-extension-targets": [
         "LargeStringType",
         "LargeBinaryType"
-      ]
+      ],
+      "x-introduced-in-version": "1.1.0"
     },
     "@Semantics.largeObject.mimeType": {
       "x-extension-targets": [
         "LargeStringType",
         "LargeBinaryType"
       ],
+      "x-introduced-in-version": "1.1.0",
       "$ref": "#/definitions/ElementReference"
     },
     "@Semantics.largeObject.fileName": {
@@ -11705,6 +13178,7 @@
         "LargeStringType",
         "LargeBinaryType"
       ],
+      "x-introduced-in-version": "1.1.0",
       "$ref": "#/definitions/ElementReference"
     }
   }

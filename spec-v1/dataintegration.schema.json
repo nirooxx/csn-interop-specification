@@ -12,7 +12,41 @@
         "Type",
         "Entity"
       ],
+      "x-introduced-in-version": "1.2.3",
       "title": "@DataIntegration.dataUnavailable"
+    },
+    "@DataIntegration.dataProduct.customDataProvider.partialKeyDefinition": {
+      "type": "array",
+      "description": "Defines subset of key fields of the CDS entity used for DELETE operation during delta replication.\n\n**Consistency Constraints:**\n- Fields defined in the annotation must be key fields of the CDS entity.",
+      "items": {
+        "x-ref-to-doc": {
+          "title": "Element Reference",
+          "ref": "#/definitions/ElementReference"
+        }
+      },
+      "minItems": 1,
+      "x-extension-targets": [
+        "Entity"
+      ],
+      "x-introduced-in-version": "1.2.6",
+      "examples": [
+        [
+          "AirlineCode",
+          "FlightConnectionNumber",
+          "FlightDate"
+        ]
+      ],
+      "title": "@DataIntegration.dataProduct.customDataProvider.partialKeyDefinition"
+    },
+    "@DataIntegration.technical": {
+      "type": "boolean",
+      "const": true,
+      "description": "Express by this annotation that an element is of technical nature used for data integration purposes and does not belong to the business data of the data product.",
+      "x-extension-targets": [
+        "Type"
+      ],
+      "x-introduced-in-version": "1.2.6",
+      "title": "@DataIntegration.technical"
     }
   }
 }
